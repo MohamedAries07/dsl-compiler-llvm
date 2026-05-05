@@ -1,0 +1,14 @@
+class Number:
+    def __init__(self, value):
+        self.value = int(value)
+
+class BinOp:
+    def __init__(self, left, op, right):
+        self.left = left
+        self.op = op
+        self.right = right
+
+class Assign:
+    def __init__(self, name, value):
+        self.name = name
+        self.value = value
